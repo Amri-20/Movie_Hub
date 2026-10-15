@@ -6,6 +6,10 @@ import {
   searchMovies,
   getMovieGenres,
 } from "../Services/movieApi";
+import MovieRow from "../Components/MovieRow";
+import useLikedMovies from "../Hooks/useLikedMovies";
+import { getMoviesByGenre } from "../Services/movieApi";
+
 
 function Home() {
   const [movies, setMovies] = useState([]);
