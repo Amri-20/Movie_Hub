@@ -113,7 +113,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home-header">
-        <h1>{search ? `Search results for "${search}"` : "Popular Movies"}</h1>
+        <h1>{search ? `Search results for "${search}"` : "Movies Hub"}</h1>
 
         <SearchBar
           search={search}
